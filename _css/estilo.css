@@ -1,4 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+    color: black;
+}
+
 p {
     text-align: justify;
     text-indent: 50px;
+}
+
+/* estilo de imagens */
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda > img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda > figcaption {
+    position: absolute;
+    top: 0px;
 }
